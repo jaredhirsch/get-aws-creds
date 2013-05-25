@@ -1,0 +1,26 @@
+{
+  "name": "get-aws-creds",
+  "version": "0.0.1",
+  "description": "Get AWS creds+region from a config file, process.env, or EC2 metadata, in that order.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/6a68/get-aws-creds.git"
+  },
+  "keywords": [
+    "aws",
+    "awssum",
+    "iam",
+    "imd"
+  ],
+  "bugs": "https://github.com/6a68/get-aws-creds/issues",
+  "author": "Jared Hirsch <ohai@6a68.net>",
+  "license": "Apache 2",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "get-iam-creds": "0.0.x"
+  }
+}
