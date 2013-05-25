@@ -1,4 +1,4 @@
-**get-aws-creds** from a config file, process.env, or EC2 metadata, in that order.
+### Get aws creds from a config file, process.env, or EC2 metadata, in that order.
 
 ### install
 
