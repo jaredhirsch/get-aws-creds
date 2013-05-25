@@ -1,13 +1,11 @@
 **get-aws-creds** from a config file, process.env, or EC2 metadata, in that order.
 
-install
-=======
+### install
 
     npm install get-aws-creds
 
 
-use
-===
+### use
 
 #### via config file
 
@@ -29,7 +27,6 @@ Nothing to do! `get-aws-creds` uses `get-iam-creds` to fetch the region and secr
     getCreds(myAwssumCallback);
 
 
-license
-=======
+### license
 
-Apache 2, because non-copyleft + patent protecting.
+Apache 2, because non-copyleft + patent protection.
